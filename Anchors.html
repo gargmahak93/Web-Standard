@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  	<title></title>
+  	<style>
+      a:link{
+        color: green;
+        font-weight: bold;
+        text-decoration: none;
+        border-bottom: 1px dotted blue;
+      }
+      a:visited{
+        color: purple;
+      }
+      a:hover{
+        color:black;
+        border-bottom: 1px solid green;
+      }
+      a:active{
+        color:red;
+      }
+      ul li a{
+        display: block;
+        padding: 4px;
+      }
+      ul li a:hover{
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+  	<p><a href="#oranges">About Oranges</a></p>
+  	They are orange in color, contained vitamin C.
+  	<h2 id="oranges">Oranges are tasty.</h2>
+  	I don't like oranges.
+    <p><a href="#resum&#233">My Resum&#233</a></p>
+    <p><a href="#comments">Add a comment!</a></p>
+    -----------------text------------------------.
+    <form id="comments" action="/path/to/script">
+      -----------form elements here--------------.<br />
+      I just read <a href=http://www.downwithwallpaper.com/tips.html title="How to Take Down Wallpaper">a great article </a>that gave me a few home improvement tips.
+    </form>
+    <ul>
+      <li><a href="/one">one</a></li>
+      <li><a href="/two">two</a></li>
+      <li><a href="/three">three</a></li>
+    </ul>
+  </body>
+</html>
