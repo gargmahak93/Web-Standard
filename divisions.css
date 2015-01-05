@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	padding:0;
+}
+#header{
+	height: 40px;
+	background: #ccc;
+}
+#content{
+	margin-right: 34%;
+}
+#sidebar{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 30%;
+	background: #999;
+}
+#footer{
+	padding: 20px;
+	background: #eee;
+}
